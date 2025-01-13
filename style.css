@@ -37,6 +37,10 @@ body {
 
     width: 100%;
     object-fit: cover;
+
+      outline: none;
+      border: none;
+      box-shadow: none;
 }
 
 #content > .click {
