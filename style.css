@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    display:none;
 }
 
 main {
@@ -15,6 +20,7 @@ main {
     align-content:center;
     justify-content:center;
     background-color: #ebedea;
+    overflow: hidden;
 }
 
 #content {
